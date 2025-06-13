@@ -93,7 +93,10 @@ Solution 'Projet'
 - **Repository Pattern** pour l’accès aux données  
 
 ---
-
+## 👥 Contributors
+- **Rahma Bochnak**
+- **Siwar Chiha**
+---
 ## 🚀 Lancer l'application
 
 1️⃣ Ouvre la solution avec **Visual Studio**  
