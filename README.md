@@ -1,12 +1,12 @@
-# Gestion du Stock – Application WinForms (.NET C#)
+# Stock Management – WinForms Application (.NET C#)
 
-Ce projet est une application desktop développée en **C# (.NET WinForms)** qui permet la gestion d’un stock de produits. Elle est divisée en deux parties principales :  
-- **Projet** : la couche interface et logique de présentation.  
-- **Projet.Data** : la couche accès aux données et logique métier.
+This project is a desktop application developed in C# (.NET WinForms) that enables product stock management. It is divided into two main parts:
+- **Projet** :  the UI and presentation logic layer.  
+- **Projet.Data** : the data access and business logic layer.
 
 ---
 
-## 📸 Aperçu de l'application
+## 📸 Application Preview
 
 ![image](https://github.com/user-attachments/assets/99b56d2e-5209-4e25-ab0f-6d663955c91c)
 ![image](https://github.com/user-attachments/assets/a7810c02-21ed-4c4d-ac56-7fe5b11778bf)
@@ -16,7 +16,7 @@ Ce projet est une application desktop développée en **C# (.NET WinForms)** qui
 
 ---
 
-## 📁 Structure du projet
+## 📁 Project Structure
 
 Solution 'Projet'
 
@@ -75,31 +75,31 @@ Solution 'Projet'
 
 ---
 
-## 🛠 Fonctionnalités principales
+## 🛠 Main Features
 
-✅ Authentification des utilisateurs (Login / Register)  
-✅ Gestion des catégories : ajout, modification, suppression  
-✅ Gestion des produits : ajout, modification, suppression  
-✅ Base de données intégrée (SQLite)  
-✅ Séparation en couches (interface / données / repositories)
+✅ User authentication (Login / Register)
+✅ Category management: add, update, delete
+✅ Product management: add, update, delete
+✅ Embedded database (SQLite)
+✅ Layered architecture (UI / Data / Repositories)
 
 ---
 
-## 🏗 Technologies utilisées
+## 🏗 Technologies Used
 
 - **C# (.NET WinForms)**  
 - **Entity Framework Core** (Code First + Migrations)  
-- **SQLite** pour la base de données  
-- **Repository Pattern** pour l’accès aux données  
+- **SQLite**  for the database
+- **Repository Pattern**  for data access
 
 ---
 ## 👥 Contributors
 - **Rahma Bochnak**
 - **Siwar Chiha**
 ---
-## 🚀 Lancer l'application
+## 🚀 Run the Application
 
-1️⃣ Ouvre la solution avec **Visual Studio**  
-2️⃣ Assure-toi d’avoir les packages NuGet restaurés :  
+1️⃣ Open the solution with Visual Studio
+2️⃣ Make sure NuGet packages are restored:
 ```bash
 dotnet restore
